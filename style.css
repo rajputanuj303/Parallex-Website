@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+@font-face { 
+    font-family: 'MyCustomFont'; 
+    src: url('stanford-breath/Stanford_Breath.ttf') format('ttf'), url('stanford-breath/Stanford_Breath.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Page 1 */
+.Background1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/Background1.jpg);
+}
+
+.B1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 60vw;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+.B1-content h1{
+    color: rgb(0, 0, 0);
+    font-family:'MyCustomFont', 'Times New Roman', Times, sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* Page 2 */
+.Content1{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(142, 142, 142, 0.592);
+}
+.Content1 h1{margin-top: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-size: 6rem;
+    cursor:pointer;
+    
+}
+.Content1 p{
+    font-size: 1.5vw;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Page 3 */
+.Background2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(Images/Background2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.Content2{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(82, 85, 88, 0.649);
+}
+.Content2 h1{margin-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-size: 6rem;
+    cursor:pointer;
+    
+}
+.Content2 p{
+    font-size: 1.5vw;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Page 4 */
+.Background3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/Background4.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+/* Page 5 */
+.Background4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/Background5.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
